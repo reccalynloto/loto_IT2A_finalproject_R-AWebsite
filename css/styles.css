@@ -1,0 +1,545 @@
+/*External CSS*/
+
+
+.wrapper {
+	width:  100%;
+	height: 90px;
+	background-color: #fff;
+	padding: 15px;
+	border-top:  5px solid saddlebrown;
+	border-bottom: 5px solid saddlebrown;
+}
+
+
+.header {
+	text-align:  center;
+}
+
+.header img {
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+
+.header ul {
+	margin: 0px;
+	padding: 10px;
+	text-align: right;
+}
+
+.header ul li {
+	list-style-type: none;
+	display: inline-flex;
+	position: relative;
+}
+
+.header ul li a {
+	color: saddlebrown;
+	text-decoration: none;
+	padding: 3px 5px;
+	border: 1px solid #fff;
+	font-weight: bold;
+	font-size: 14px;
+	margin-right: 15px;
+	transition: 0.6s ease;
+}
+
+.header ul li a.active {
+	color: saddlebrown;
+}
+
+.header ul li a:hover{
+	color: #F4A460;
+	background: #000;
+}
+
+
+/*body*/
+
+body {
+	width:  100%;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	justify-content:  center;
+	background-color: burlywood;
+	align-items: center;
+	display: center;
+}
+
+h1 {
+	margin: 0;
+	color: whitesmoke;
+	font-family:"Montserrat", serif;
+	font-size: 100;
+	font-weight: bold;
+}
+
+
+.carousel-inner {
+	width: 100%;
+	height: 500px;
+}
+
+.carousel-item{
+	width:  100%;
+	height: 500px;
+}
+
+
+.carousel-item img {
+	width: 500px;
+	height:  500px;
+}
+
+
+/*hotel page*/
+
+.hotel-page {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	display: inline-block;
+	background-color: #CD8553F;
+}
+
+.hotel-page h2 {
+	font-size: 30px;
+	color: saddlebrown;
+	font-family: cursive;
+	display: inline-block;
+	padding-top:  30px;
+}
+
+
+.hotel-page p {
+	text-decoration: none;
+	margin: 15px 0 20px;
+	font-size: 20px;
+	font-family: Hawaii\ 5-0;
+	color: saddlebrown;
+	padding: 10px;
+}
+
+
+section.rooms {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 30px 20px;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	text-align: center;
+}
+
+.room img {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+
+.room img:hover{
+	transform: scale(1.04);
+}
+
+.room h2{
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: cursive;
+	color: black;
+}
+
+
+
+/*for button reserve-menu-booknow-order button*/
+
+.btn.custom-btn {
+	padding: 5px 30px;
+	border: none;
+	outline: none;
+	background: #8B4513;
+	color: white;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 16px;
+	margin: 0 auto;
+	float: center;
+	transition: 0.2s all;
+}
+
+.button {
+	background:  #A0522D;
+	width:  130px;
+	font-size:  15px;
+	text-tansform:  uppercase;
+	letter-spacing: 2px;
+	border-radius:  10px;
+	transition: 0.3s;
+	cursor:  pointer;
+	margin: 50px 0px 130px 100px;
+	text-align-last: center;
+	padding: 10px;
+	margin-right: 600px;
+
+}
+
+.button a {
+	color:  #fff;
+	text-decoration: none;
+	list-style-type: none;
+	font-weight: bold;
+}
+
+.btn.custom-btn button:hover{
+	transform: scale(1.04);
+}
+
+.btn.custom-btn:focus, .form-control:focus, .custom-select:focus{
+	box-shadow:  none;
+}
+
+
+/*resto page*/
+
+.resto-page {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	display: inline-block;
+	background-color: #CD8553F;
+}
+
+.resto-page h2 {
+	font-size: 30px;
+	color: saddlebrown;
+	font-family: cursive;
+	display: inline-block;
+	padding-top:  30px;
+}
+
+
+.resto-page p {
+	text-decoration: none;
+	margin: 15px 0 20px;
+	font-size: 20px;
+	font-family: Hawaii\ 5-0;
+	color: saddlebrown;
+	padding: 10px;
+}
+
+
+section.menus {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 30px 20px;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	text-align: center;
+}
+
+.menu img {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+
+.menu img:hover{
+	transform: scale(1.04);
+}
+
+.menu h2 {
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: cursive;
+	color: black;
+}
+
+
+/*menu page*/
+
+.menu-page {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	display: inline-block;
+	background-color: #CD8553F;
+}
+
+.menu-page h2 {
+	font-size: 30px;
+	color: saddlebrown;
+	font-family: cursive;
+	display: inline-block;
+	padding-top:  30px;
+	font-weight: bold;
+}
+
+
+
+
+
+/*about us page*/
+
+.logo1 img {
+	float: center;
+	width: 150px;
+	height: 60px;
+}
+
+.about-page {
+	width: 100%;
+	height: 350px;
+	text-align: center;
+	display: center;
+	background-color: #CD8553F;
+}
+
+.about-page h2 {
+	font-size: 30px;
+	color: saddlebrown;
+	font-family: cursive;
+	font-weight: bolder;
+	font-display: inline-block;
+	padding-top:  30px;
+}
+
+.about-page h3 {
+	font-size: 40px;
+	color: sienna;
+	font-family: cursive;
+	padding-top:  30px;
+}
+
+.about-page p {
+	text-decoration: none;
+	margin: 20px 0 0px;
+	font-size: 15px;
+	font-family: Hawaii\ 5-0;
+	color: saddlebrown;
+	padding-top:  30px;
+}
+
+
+
+.banner {
+	margin:  0 auto;
+	width:  450px;
+}
+
+.banner img{
+	height: 220px;
+	width:  400px;
+	align-items: center;
+	transform:  translate(-5%, -5%);
+}
+
+
+
+
+/*contact us*/
+
+
+.contact-form {
+	width:  80%;
+	padding-top: 100px;
+	margin-right: 50px;
+	margin-left: 50px;
+	text-align: center;
+	display:  flex;
+}
+
+.contact-form h2 {
+	color:  #A0522D;;
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-bottom:  20px;
+	margin-top: 20px;
+}
+
+.contact-form p {
+	text-decoration: none;
+	margin: 20px 0 20px;
+	font-size: 18px;
+	font-family: Hawaii\ 5-0;
+	color: #A0522D;
+	padding: 10px;
+}
+
+.contact-form .text-box {
+	background:  #000;
+	color:  #fff;
+	border:  none;
+	width: 600px;
+	height:  50px;
+	padding: 10px;
+	font-size: 15px;
+	border-radius:  5px;
+	margin-bottom:  10px;
+	text-align-last: center;
+}
+
+.contact-form textarea {
+	background:  #000;
+	color:  #fff;
+	border: none;
+	width:  90%;
+	padding: 15px;
+	font-size:  15px;
+	min-height:  200px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align-last: center;
+}
+
+
+.send-btn {
+	background:  #A0522D;
+	color:  #000;
+	width:  120px;
+	font-size:  15px;
+	font-weight: bold;
+	text-tansform:  uppercase;
+	letter-spacing: 2px;
+	border-radius:  5px;
+	transition: 0.3s;
+	cursor:  pointer;
+	margin: 10px 0px 10px 10px;
+}
+
+.contact-form .send-btn:hover {
+	background-color: #fff;
+}
+
+
+
+/*reservation form*/
+*{
+	box-sizing:  border-box;
+	padding:  0;
+	margin:  0;
+}
+
+.form-container {
+	height: 50%;
+
+}
+
+.form-container h2 {
+	text-align: center;
+	color: #A0522D;
+	padding:  25px 0 10px 0;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.form-row {
+	display: flex;
+	text-align-last: center;
+	width: 80%;
+	margin: 0 auto;
+	min-height: 50px;
+}
+
+form select, form input {
+	display:  block;
+	width:  100%;
+	margin: 5px;
+	font-size:  15px;
+	font-family: 'Poppins', sans-serif;
+	outline: none;
+	border:  none;
+	border-bottom:  1px solid #000;
+	font-weight:  400;
+
+}
+
+form input[type = text], form input[type = number], form input::placeholder, select{
+	color: #9a9a9a;
+}
+form input [type = submit]{
+	color: #000;
+	background: #A0522D;
+	padding:  12px 0;
+	border-radius:  4px;
+	cursor:  pointer;
+}
+form input [type = submit]:hover{
+	opacity: 0.9;
+}
+
+
+/*response message*/
+
+
+.message {
+	width: 100%;
+	height: 320px;
+	text-align: center;
+	display: center;
+	background-color: #F5DEB3;
+	border-bottom: 5px dotted saddlebrown;
+}
+
+.message h2 {
+	font-size: 40px;
+	color: saddlebrown;
+	font-family: cursive;
+	font-weight: bolder;
+	font-display: inline-block;
+	padding-top:  70px;
+}
+
+
+.message p {
+	text-decoration: none;
+	margin: 10px 0 0px;
+	font-size: 20px;
+	font-family: Hawaii\ 5-0;
+	color: saddlebrown;
+	padding-top:  30px;
+}
+
+
+
+
+
+
+/*footer*/
+.footer {
+	clear: both;
+	border-top: 1px solid #fff;
+	padding: 15px;
+	text-align: center;
+	background-color: #A0522D;
+	display:  center;
+}
+
+.footer p {
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	font-family: monospace;
+}
+
+
+.footer i {
+	color: #fff;
+}
+
+.footer a:hover {
+	background-color:  #fff;
+	box-shadow:  2px 2px 12px rgba(0, 0, 0, 2);
+	transition: all ease 0.5s;
+}
+
+.footer a:hover i {
+	color: lightslategrey;
+	transition:  all ease 0.s;
+}
+
+
