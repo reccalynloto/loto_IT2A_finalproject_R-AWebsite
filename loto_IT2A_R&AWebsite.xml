@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE MMsite [
+<!ELEMENT Head (index)>
+<!ELEMENT list (index, hotel, resto, about, contact)>
+<!ELEMENT Hotel (bed)>
+<!ELEMENT bed (single, twin, family, cabana, king, mini_suit, duplex, interconnecting)>
+<!ELEMENT meals (Dinner, Lunch, Appetizers, Drink, Snacks, Desserts)>
+<!ELEMENT about (about_us, message)>
+<!ELEMENT contact (facebook, instagram, twitter,Youtube, number, address)>
+
+
+
+
+
+<!ELEMENT index (#PCDATA)>
+<!ELEMENT hotel (#PCDATA)>
+<!ELEMENT resto (#PCDATA)>
+<!ELEMENT about (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT buuton (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ELEMENT footer (#PCDATA)>
+<!ELEMENT cabana (#PCDATA)>
+<!ELEMENT king (#PCDATA)>
+<!ELEMENT mini_suit (#PCDATA)>
+<!ELEMENT duplex (#PCDATA)>
+<!ELEMENT interconnecting (#PCDATA)>
+<!ELEMENT banner (#PCDATA)>
+<!ELEMENT Dinner (#PCDATA)>
+<!ELEMENT Lunch (#PCDATA)>
+<!ELEMENT Appetizer (#PCDATA)>
+<!ELEMENT Drinks (#PCDATA)>
+<!ELEMENT Snacks (#PCDATA)>
+<!ELEMENT Desserts (#PCDATA)>
+
+
+
+
+<!ATTLIST Head home CDATA #REQUIRED>
+<!ATTLIST li list CDATA #REQUIRED>
+<!ATTLIST Button type CDATA #REQUIRED>
+<!ATTLIST Bed list CDATA #REQUIRED>
+<!ATTLIST Carousel name CDATA #REQUIRED>
+<!ATTLIST img list CDATA #REQUIRED>
+<!ATTLIST banner img CDATA #REQUIRED>
+
+
+
+
+
+]>
+
+<MMsite>
+	<index id = "HOME">
+		
+		<li> href="index.php" class="active">HOME</li>
+            <li>href="hotel.php">HOTEL</li>
+            <li>href="resto.php">RESTAURANT</li>
+            <li>href="about us.php">ABOUT US</li>
+            <li> href="contact.php">CONTACT US</li>
+
+        <content>
+        	
+    <carousel name="welcome">R&amp;A Hotel and Restaurant </carousel>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+        </content>
+        <footer>
+      <copyright>Copyright by R&amp;A Hotel and Restaurant 2023 All rights reserved</copyright>
+      <facebook>facebook logo</facebook>
+      <instagram>instagram logo</instagram>
+      <twitter>instagram logo</twitter>
+      <youtube>youtube</youtube>
+
+        </footer>
+		
+	</index>
+	<bed id = "HOTEL">
+		<li> href="index.php">HOME</li>
+            <li>href="hotel.php"class="active">HOTEL</li>
+            <li>href="resto.php">RESTAURANT</li>
+            <li>href="about us.php">ABOUT US</li>
+            <li> href="contact.php">CONTACT US</li>
+    </bed>
+
+
+		<content>
+		<banner> The R&amp;A Hotel</banner>
+		<message>Try our best suits were you can find love and comfort</message>
+		<img name= "Single Bedroom">Single Bedroom</img>
+		<img name="Twin Bedroom">Twin Bedroom</img>
+		<img name="Family Bedroom">Family Bedroom</img>>
+		<img name="Cabana Bedroom">Cabana Bedroom</img>>
+		<img name="King Size Bedroom">King Size Bedroom</img>>
+		<img name="Mini-Suit Room">Mini-Suit Room</img>>
+		<img name="Duple Bedroom">Duple Bedroom</img>>
+		<img name="Interconnecting Bedroom">Interconnecting Bedroom</img>>
+		</content>
+
+		<footer>
+      <copyright>Copyright by R&amp;A Hotel and Restaurant 2023 All rights reserved</copyright>
+      <facebook>facebook logo</facebook>
+      <instagram>instagram logo</instagram>
+      <twitter>instagram logo</twitter>
+      <youtube>youtube</youtube>
+
+        </footer>
+
+		<meals id = "RESTAURANT">
+		
+		<li> href="index.php">HOME</li>
+            <li>href="hotel.php">HOTEL</li>
+            <li>href="resto.php"class="active>RESTAURANT</li>
+            <li>href="about us.php">ABOUT US</li>
+            <li> href="contact.php">CONTACT US</li>
+
+        <content>
+        	<banner> The R&amp;A Hotel</banner>
+		<message>Try our best seller and savory dishes that you and your family would enjoy together with your loveones</message>
+		<img name= "Dinner">Dinner</img>
+		<img name="Lunch">Lunch</img>
+		<img name="Appetizer">Appetizer</img>
+		<img name="Drinks">Drinks</img>
+		<img name="Snacks">Snacks</img>
+		<img name="Desserts">Desserts</img>
+			<Menu>
+				<Dinner>
+					<list>ASIAN SLAW WRAPS IN RICE PAPER</list>
+					<list>TRADITIONAL CAESAR SALAD</list>
+					<list>RARE</list>
+					<list>WELL DONE</list>
+					<list>MEDIUM RARE</list>
+					<list>MAIN COURSE</list>
+					<list>SEA FOOD</list>
+					<list>VEGAN LASAGNA</list>
+					<list>ARE-KARE</list>
+					<list>BICALAO RITO</list>
+				</Dinner>
+				<Lunch>
+					<list>JAPANESE BEEF CURRY</list>
+					<list>CHEESE KATSU</list>
+					<list>GREEN PEPPER STEAK</list>
+					<list>STIR FRIED GINGER</list>
+					<list>GREEN CURRY</list>
+					<list>TERIYAKI CHICKEN</list>
+					<list>LECHON KAWALI</list>
+					<list>CHICKEN BARBECUE</list>
+					<list>BEEF CALDERETA</list>
+					<list>CHAPSUEY</list>
+					<list>PINAKBET</list>
+					<list>LAING</list>
+					<list>SINIGANG</list>
+					<list>BULALO</list>
+				</Lunch>
+				<Appetizer>
+
+					<list>SWEET POTATO FRIES</list>
+					<list>CHILI CHEESE TOTS</list>
+					<list>CRISPY RIED CHEESE</list>
+					<list>BAKED POTATO</list>
+					<list>FRIED CALAMARI</list>
+					<list>FRENCH FRIES</list>
+					<list>SPINACH ARTICHOKE DIP</list>
+					<list>MOZZARELLA STICKS</list>
+					<list>MAC AND CHEESE BITES</list>
+					<list>CREAM CHEESE</list>
+					<list>CHICHARON</list>
+					<list>LUMPIA</list>
+					<list>FRESH LUMPIA</list>
+				
+				</Appetizer>
+				<Drinks>
+
+                    <list>MILK SHAKE</list>
+					<list>>BUTTER SCOTCH</list>
+					<list>MANGO</list>
+					<list>STRAWBERRY</list>
+					<list>CAPPUCINO</list>
+					<list>VANILLA</list>
+					<list>FRESH FRUIT JUICE</list>
+					<list>APPLE</list>
+					<list>MANGO</list>
+					<list>ORANGE</list>
+					<list>LEMON</list>
+					<list>PINEAPPLE</list>
+					<list>BEVERAGES</list>
+					<list>TEA</list>
+					<list>BEER</list>
+					<list>WINE</list>
+					<list>COFFEE</list>
+					<list>ENERGY DRINK</list>
+      			
+				</Drinks>
+				<Snacks> 
+					<list>BARS</list>
+					<list>BREAD</list>
+					<list>CHEESE</list>
+					<list>CHIPS</list>
+					<list>CRACKERS</list>
+					<list>CHOCOLATES</list>
+					<list>TWIX</list>
+					<list>MUSKETEERS</list>
+					<list>SNICKERS</list>
+					<list>NUTS</list>
+					<list>PASTA</list>
+					<list>NOODLES</list>
+					<list>CARBONARA</list>
+					<list>PESTO</list>
+				</Snacks>
+				<Desserts>
+					<list>ICE CREAM</list>
+					<list>APPLE PIE</list>
+					<list>ALMOND CAKE</list>
+					<list>TIRAMISU</list>
+					<list>VANILLA ICE CREAM</list>
+					<list>ICE CREAM CAKE</list>
+					<list>APPLE CINNAMON CUSTARD CAKE </list>
+					<list>CHEESE CAKE</list>
+					<list>COOKIES</list>
+					<list>GELATINE</list>
+					<list>CANDIES</list>
+					<list>PUDDING</list>
+					<list>MACAROONS</list>
+					<list>HALO-HALO</list>
+					<list>LECHE FLAN</list>
+					<list>TURON</list>
+				</Desserts>
+				
+			</Menu>
+
+	
+        </content>
+        <footer>
+      <copyright>Copyright by R&amp;A Hotel and Restaurant 2023 All rights reserved</copyright>
+      <facebook>facebook logo</facebook>
+      <instagram>instagram logo</instagram>
+      <twitter>instagram logo</twitter>
+      <youtube>youtube</youtube>
+
+        </footer>
+		
+	</meals>
+	<about id = "About us">
+		
+		<li> href="index.php">HOME</li>
+            <li>href="hotel.php">HOTEL</li>
+            <li>href="resto.php">RESTAURANT</li>
+            <li>href="about us.php"class="active">ABOUT US</li>
+            <li> href="contact.php">CONTACT US</li>
+     </about>
+     <content>
+        <banner> R&amp;A Hotel and Restaurant </banner>
+		<message>R&amp;A Hotel and Restaurant was built on the year 2023 and was formed by Reccalyn Loto and Arah Dianne Sadiwa.  The purpose is to give the satisfaction of every customer at a very affordable price. Anyone can visit us anytime and you can also bring your family because we have different types of rooms which is perfectly built for a big family.You can also visit our restaurant and taste our best seller and delicacies that our restaurant offers. We have the best and savory dishes that you and your family would enjoy together with your loveones.</message>
+
+     </content>
+       <footer>
+      <copyright>Copyright by R&amp;A Hotel and Restaurant 2023 All rights reserved</copyright>
+      <facebook>facebook logo</facebook>
+      <instagram>instagram logo</instagram>
+      <twitter>instagram logo</twitter>
+      <youtube>youtube</youtube>
+
+        </footer>
+    <contact id = "CONTACT US">
+		
+		<li> href="index.php" class="active">HOME</li>
+            <li>href="hotel.php">HOTEL</li>
+            <li>href="resto.php">RESTAURANT</li>
+            <li>href="about us.php">ABOUT US</li>
+            <li> href="contact.php">CONTACT US</li>
+    </contact>
+    <content>
+    	<address>Boac, Marinduque</address>
+	   			<number>09129996091</number>
+	   			<email>randahotelandrestaurant@email.com</email>
+	   			<message>"your message"</message>
+	   			<name>"your name"</name>
+	   			<email>"your email"</email>
+    	
+    </content>
+    <footer>
+      <copyright>Copyright by R&amp;A Hotel and Restaurant 2023 All rights reserved</copyright>
+      <facebook>facebook logo</facebook>
+      <instagram>instagram logo</instagram>
+      <twitter>instagram logo</twitter>
+      <youtube>youtube</youtube>
+    </footer>
+
+
+</MMsite>
